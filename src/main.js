@@ -13,3 +13,4 @@ new Vue({
   template: '<App/>',
   components: { App }
 })
+window.eventBus = new Vue()
